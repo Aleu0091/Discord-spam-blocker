@@ -61,4 +61,4 @@ async def on_member_join(member):
             log_channel = bot.get_channel(log_channel_id)
             await log_channel.send(f"{member}는 계정 생성 후 30일이 지나지 않아 차단되었습니다.")
 
-bot.run('MTE5MDYzMjA2ODE2MjUzMTMyOA.Ghux2l.1eZcwSgauFkeBZHSLBz0zI2mFgsGxQDaLFmvfs')
+bot.run('')
