@@ -32,4 +32,4 @@ async def on_member_remove(member):
         await member.ban(reason="계정 생성 후 30일이 지나지 않았습니다.")
         print(f"{member}는 오프라인 상태에서 계정 생성 후 30일이 지나지 않아 차단되었습니다.")
 
-bot.run('')
+bot.run('YOUR_BOT_TOKEN')
